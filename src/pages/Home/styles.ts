@@ -9,6 +9,7 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 80px;
+  overflow: hidden;
 `;
 
 export const ButtonContainer = styled.div`

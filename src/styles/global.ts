@@ -11,13 +11,14 @@ export default createGlobalStyle`
   html,
   body,
   #root {
-    height: 100%;
+    height: 100vh;
     background-color: #1F243E;
   }
 
   body {
     font-family: "Bai Jamjuree", sans-serif;
     color: #C9CEE5;
+    overflow: hidden;
 
     
   }
