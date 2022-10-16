@@ -13,6 +13,7 @@ export default createGlobalStyle`
   #root {
     height: 100vh;
     background-color: #1F243E;
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {

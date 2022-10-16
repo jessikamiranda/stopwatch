@@ -32,6 +32,13 @@ export const StyledButton = styled.button`
     box-shadow: 10px 10px 10px #191d32, inset 10px 10px 10px #915eff,
       inset -5px -5px 10px #4015b7;
   }
+
+  :active {
+    transition: all ease-in-out 0.1s;
+    background: #671fff;
+    box-shadow: 10px 10px 10px #191d32, inset 10px 10px 10px #4015b7,
+      inset -5px -5px 10px #915eff;
+  }
 `;
 
 export const ButtonContainer = styled.div`
