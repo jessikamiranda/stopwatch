@@ -24,8 +24,8 @@ export const ClockContainer = styled.div`
 
 export const Border = styled.div<Teste>`
   position: absolute;
-  width: 431px;
-  height: 431px;
+  width: calc(27rem + 2px);
+  height: calc(27rem + 2px);
 
   display: flex;
   align-items: center;
@@ -55,12 +55,21 @@ export const Border = styled.div<Teste>`
     css`
       animation: loading 3s linear infinite;
     `}
+
+  @media only screen and (min-width: 375px) and (max-width: 510px) {
+    width: calc(20rem + 2px);
+    height: calc(20rem + 2px);
+  }
+  @media only screen and (max-width: 375px) {
+    width: calc(15rem + 2px);
+    height: calc(15rem + 2px);
+  }
 `;
 
 export const Shadow = styled.div`
   position: absolute;
-  width: 431px;
-  height: 431px;
+  width: calc(27rem + 2px);
+  height: calc(27rem + 2px);
 
   display: flex;
   align-items: center;
@@ -71,14 +80,23 @@ export const Shadow = styled.div`
   background: #1f243e;
   filter: drop-shadow(-10px -23px 30px rgba(111, 117, 151, 0.1))
     drop-shadow(15px 30px 30px #191d32);
+
+  @media only screen and (min-width: 375px) and (max-width: 510px) {
+    width: calc(20rem + 2px);
+    height: calc(20rem + 2px);
+  }
+  @media only screen and (max-width: 375px) {
+    width: calc(15rem + 2px);
+    height: calc(15rem + 2px);
+  }
 `;
 
 export const Clock = styled.div`
   position: relative;
   top: 2px;
   left: 2px;
-  width: 427px;
-  height: 427px;
+  width: 27rem;
+  height: 27rem;
 
   display: flex;
   align-items: center;
@@ -89,4 +107,13 @@ export const Clock = styled.div`
   background: #1f243e;
   box-shadow: inset -8px -8px 30px rgba(111, 117, 151, 0.1),
     inset 15px 30px 30px #191d32;
+
+  @media only screen and (min-width: 375px) and (max-width: 510px) {
+    width: 20rem;
+    height: 20rem;
+  }
+  @media only screen and (max-width: 375px) {
+    width: 15rem;
+    height: 15rem;
+  }
 `;

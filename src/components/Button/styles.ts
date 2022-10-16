@@ -14,6 +14,11 @@ export const StyledButton = styled.button`
   width: 160px;
   height: 52px;
 
+  @media only screen and (min-width: 375px) and (max-width: 510px) {
+    width: 120px;
+    height: 52px;
+  }
+
   background: #1f243e;
   box-shadow: -5px -5px 10px rgba(111, 117, 151, 0.1), 10px 10px 10px #191d32,
     inset -5px -5px 10px rgba(111, 117, 151, 0.1), inset 10px 10px 10px #191d32;
@@ -45,4 +50,12 @@ export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 60px;
+
+  @media only screen and (min-width: 375px) and (max-width: 510px) {
+    gap: 24px;
+  }
+  @media only screen and (max-width: 375px) {
+    gap: 24px;
+    flex-direction: column;
+  }
 `;
