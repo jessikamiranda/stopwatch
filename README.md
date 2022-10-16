@@ -4,7 +4,7 @@
 
 ## 💻 About
 
-A stopwatch made with ReactTS
+A stopwatch made with ReactTS and StyledComponents
 
 ## 🚀 Starting
 
