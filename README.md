@@ -8,4 +8,4 @@ A stopwatch made with ReactTS
 
 ## 🚀 Starting
 
-To start this project click [here](https://jessikamiranda.github.io/Login/).
+To start this project click [here](https://stopwatch-indol.vercel.app/).
